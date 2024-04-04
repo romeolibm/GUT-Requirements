@@ -1,7 +1,7 @@
 # GUT-Requirements
 Basic requirements for data architecture and tools implementation for building a GUT (Global Universal Taxonomy) and the LUT (Local Universal Taxonomy)
 
-1. There can be only a single GUT in this reality
+1. There can be only one GUT in this reality
 2. The GUT and each LUT have a binary namespace identified in by a unique (relative to the GUT) 64 bit random number. The GUT NSID is equal to 1. The uniqueness of a LUT_NSID is verified against the list of LUT namespaces registered in the GUT repository. LUT_NSID can be anonimized.
 3. The GUT is human language independent
 4. The GUT is built from individual LUTs (Local Universal Taxonomies) by using well defined publishing and merging procedures
@@ -13,5 +13,3 @@ Basic requirements for data architecture and tools implementation for building a
 10. The core set of entities will be fully documented in this repository
 11. The first entity of the GUT is the "root" entity, a fully abstract entity that serves nly as an initial anchor (or starting point for any other entity in a LUT directoy or indirectly via inheritance
 12. ?
-
-   
