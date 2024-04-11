@@ -28,3 +28,21 @@ This document uses the following names:
 14. The core set of entities will be fully documented in this repository
 15. The first entity of the GUT is the "root" entity, a fully abstract entity that serves nly as an initial anchor (or starting point for any other entity in a LUT directoy or indirectly via inheritance
 16. ?
+
+|ID|Description|
+|---|---|
+|0|Default best replacement, used only for root entities that need a spacial placeholder for not yet defined entities|
+|1|The root entity is the entity all other entities are derived from. It is seldomly used outside of this core definitiion. Use higher entities to derive your entity definitions|
+|2|This is the id for an completely generic entity attribute relation identifier (second id in the RDF tuple. Used as is as a relation descriptor, it means is-a, or extends|
+|3|Real Entity, something from the real world, measurable|
+|4|Imaginary entity, this is not real, it exists only in our imagination, hipotheses, math, models etc all are derived from this entity|
+|5|An attribute class that indicates that the target is a endelable part of the defined entity, a feature (can't be removed without destroying the defined entity)|
+|6|An attribute class that indicates that the target belongs to the defined entity but the relationship can be broken without destroying the entity| 
+|7|An attrribute type describing the target as a boolean entity, it can have only two values and is usually one bit long aligned to the local CPU word or one byte 0/1|
+|8|An attrribute type describing the target as a natural (unsigned) integral number of unlilmited size (but usually limited to < 4kB length)|
+|9|An attrribute type describing the target as (signed) integral number of unlilmited size (but usually limited to < 4kB length)|
+|10|An attrribute type describing the target as floating point number|
+|11|An attrribute type describing the target as an array of symbols, where the encoding is only specified in the derived entity|
+|12|An attrribute type describing the target as an array of symbols extends #11 with encoding 4 byte UNICODE|
+|13|An attrribute type describing the target as an array of symbols extends #11 with encoding UTF-8|
+
