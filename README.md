@@ -1,4 +1,4 @@
-# GUT-Requirements
+# GUT-Requirements (under development)
 Basic requirements for data architecture and tools implementation for building a GUT (Global Universal Taxonomy) and the LUT (Local Universal Taxonomy)
 
 This document uses the following names:
