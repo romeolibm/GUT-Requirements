@@ -38,11 +38,11 @@ This document uses the following names:
 |4|Imaginary entity, this is not real, it exists only in our imagination, hipotheses, math, models etc all are derived from this entity|
 |5|An attribute class that indicates that the target is a endelable part of the defined entity, a feature (can't be removed without destroying the defined entity)|
 |6|An attribute class that indicates that the target belongs to the defined entity but the relationship can be broken without destroying the entity| 
-|7|An attrribute type describing the target as a boolean entity, it can have only two values and is usually one bit long aligned to the local CPU word or one byte 0/1|
-|8|An attrribute type describing the target as a natural (unsigned) integral number of unlilmited size (but usually limited to < 4kB length)|
-|9|An attrribute type describing the target as (signed) integral number of unlilmited size (but usually limited to < 4kB length)|
-|10|An attrribute type describing the target as floating point number|
-|11|An attrribute type describing the target as an array of symbols, where the encoding is only specified in the derived entity|
-|12|An attrribute type describing the target as an array of symbols extends #11 with encoding 4 byte UNICODE|
-|13|An attrribute type describing the target as an array of symbols extends #11 with encoding UTF-8|
-
+|7|An attrribute type describing the target as an attribute pointing to a leaf target (a target that is not an identifier but data to be interpreted in few fundamental ways)|
+|8|An attrribute type describing the target as a boolean entity, it can have only two values and is usually one bit long aligned to the local CPU word or one byte 0/1|
+|9|An attrribute type describing the target as a natural (unsigned) integral number of unlilmited size (but usually limited to < 4kB length)|
+|10|An attrribute type describing the target as (signed) integral number of unlilmited size (but usually limited to < 4kB length)|
+|11|An attrribute type describing the target as floating point number|
+|12|An attrribute type describing the target as an array of symbols, where the encoding is only specified in the derived entity|
+|13|An attrribute type describing the target as an array of symbols extends #11 with encoding 4 byte UNICODE|
+|14|An attrribute type describing the target as an array of symbols extends #11 with encoding UTF-8|
