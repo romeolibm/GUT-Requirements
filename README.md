@@ -10,7 +10,7 @@ This document uses the following names:
 |NSID|Name-Space unique binary ID|
 |WORM|Write Once Read Many|
 
-# Requirements for GUIT and LUT entities
+# Requirements for GUT and LUT entities
 
 1. There can be only one GUT in this reality
 3. The GUT and LUTs have assigned binary namespaces identified in by unique (relative to the GUT) 64 bit random numbers
