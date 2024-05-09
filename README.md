@@ -22,11 +22,11 @@ This document uses the following names:
 10. Each human or group of humans can create and maintin one or more LUTs they can publish to the GUT without impacting the GUT or other LUTs bcause of unique NSIDs and WORM object architecture 
 5. The uniqueness of a LUT NSIDs is verified against the list of LUT namespaces registered in the GUT repository
 6. LUT NSID can be anonimized
-7. The GUT entity structures are fully defined via a set of 3 dimension T-uples (ent-id,attr-id,component-d/atomc-value)
+7. The GUT entity structures are fully defined via a set of 3 dimension T-uples (ent-id,attr-id,component-d/atomic-value)
 11. Connecting LUTs to The GUT are done via LUT-GUT identity mapping that allows for independent binary namespaces for the GUT and any LUT out there
 13. This repository will define a minimal core set of entities that will be used to define basic entities and thier structures in any LUT in order to bootstrap the process of building LUTs and in time consolidating them in the GUT
 14. The core set of entities will be fully documented in this repository
-15. The first entity of the GUT is the "root" entity, a fully abstract entity that serves nly as an initial anchor (or starting point for any other entity in a LUT directoy or indirectly via inheritance
+15. The first entity of the GUT is the "root" entity, a fully abstract entity that serves only as an initial anchor (or starting point for any other entity in a LUT directoy or indirectly via inheritance
 16. ?
 
 |ID|Description|
