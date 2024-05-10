@@ -33,7 +33,7 @@ This document uses the following names:
 |---|---|
 |0|Default best replacement, used only for root entities that need a spacial placeholder for not yet defined entities|
 |1|The root entity is the entity all other entities are derived from. It is seldomly used outside of this core definitiion. Use higher entities to derive your entity definitions|
-|2|This is the id for an completely generic entity attribute relation identifier (second id in the RDF tuple. Used as is as a relation descriptor, it means is-a, or extends|
+|2|This is the id for a completely generic entity attribute relation identifier (second id in the RDF tuple. Used as is as a relation descriptor, it means is-a, or extends|
 |3|Real Entity, something from the real world, measurable|
 |4|Imaginary entity, this is not real, it exists only in our imagination, hipotheses, math, models etc all are derived from this entity|
 |5|An attribute class that indicates that the target is a endelable part of the defined entity, a feature (can't be removed without destroying the defined entity)|
