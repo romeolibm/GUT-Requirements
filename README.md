@@ -46,3 +46,8 @@ This document uses the following names:
 |12|An attrribute type describing the target as an array of symbols, where the encoding is only specified in the derived entity|
 |13|An attrribute type describing the target as an array of symbols extends #11 with encoding 4 byte UNICODE|
 |14|An attrribute type describing the target as an array of symbols extends #11 with encoding UTF-8|
+
+## Related work
+
+ * [UESI Universal Editor for Structured Information](https://github.com/romeolibm/UESI)
+ * ...
