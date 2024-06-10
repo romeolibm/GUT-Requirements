@@ -50,4 +50,5 @@ This document uses the following names:
 ## Related work
 
  * [UESI Universal Editor for Structured Information](https://github.com/romeolibm/UESI)
+ * [UPA Universal Parser Architecture](https://github.com/romeolibm/UPA)
  * ...
